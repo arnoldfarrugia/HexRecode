@@ -1,13 +1,13 @@
 // Change title on hover
-// $("h1").mouseover(function () {
-//     $(".hex").html("#");
-//     $(".recode").html("2EC0DE");
-// });
+$("h1").mouseover(function () {
+    $(".hex").html("#");
+    $(".recode").html("2EC0DE");
+});
 
-// $("h1").mouseout(function () {
-//     $(".hex").html("HEX");
-//     $(".recode").html("RECODE");
-// });
+$("h1").mouseout(function () {
+    $(".hex").html("HEX");
+    $(".recode").html("RECODE");
+});
 
 // Create colour cards from HTML
 $(".col").each(function () {
