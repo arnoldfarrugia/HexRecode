@@ -28,7 +28,7 @@ $(".col").click(function () {
         document.execCommand("copy"); // copy to clipboard
         document.body.removeChild(copiedCode); // Remove the "input" field we created from the document
 
-        // Show "COPIED" on click to inform user that text has been copied
+        // Show "COPIED" on click to inform user that text has been copied 
         var inform = $(this);
         inform.text("#COPIED");
         setTimeout(function () {
